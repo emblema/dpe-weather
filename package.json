@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/emblema/dpe-weather/issues"
   },
-  "homepage": "https://github.com/emblema/dpe-weather#readme"
+  "homepage": "https://github.com/emblema/dpe-weather#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+  }
 }
